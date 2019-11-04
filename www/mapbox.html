@@ -1,0 +1,23 @@
+<ons-page id="mapboxPage">
+    <ons-toolbar>
+        <div class="left">
+            <!-- Toolbar-button with different icons depending on the platform. -->
+            <ons-toolbar-button id="menubtn">
+                <ons-icon icon="ion-navicon, material:md-menu" size="32px, material:24px"></ons-icon>
+            </ons-toolbar-button>
+        </div>
+        <div class="center">Mapbox Demo</div>
+        <div class="right">
+            <ons-toolbar-button>
+                <ons-icon icon="fa-user-circle"></ons-icon>
+            </ons-toolbar-button>
+        </div>
+    </ons-toolbar>
+    <div id='map' style="position:absolute; top:0; bottom:0; width:100%; height:100%;"></div>
+    <pre id='coordinates' class='coordinates'></pre>
+        <ons-fab id="setaddress" position="bottom right">
+            <ons-icon
+              icon="fa-map-pin">
+            </ons-icon>
+        </ons-fab>
+</ons-page>
